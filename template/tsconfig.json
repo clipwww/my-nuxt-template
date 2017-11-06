@@ -1,0 +1,38 @@
+{
+  // ref. https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015", "esnext.asynciterable", "es2015.symbol", "es2015.symbol.wellknown"],
+    "module": "es2015",
+    "moduleResolution": "node",
+
+    "experimentalDecorators": true,
+    // Enables experimental support for ES decorators.
+
+    "noImplicitAny": false,
+    // Raise error on expressions and declarations with an implied any type.
+
+    "noImplicitThis": false,
+    // Raise error on this expressions with an implied any type.
+
+    "strictNullChecks": false,
+    // In strict null checking mode, the null and undefined values are not in the domain of every type and are only assignable to themselves and any (the one exception being that undefined is also assignable to void).
+
+    "removeComments": true,
+    // Remove all comments except copy-right header comments beginning with /*!
+
+    "suppressImplicitAnyIndexErrors": true,
+    // Suppress --noImplicitAny errors for indexing objects lacking index signatures. See issue #1232 for more details.
+
+    "allowSyntheticDefaultImports": true,
+    // Allow default imports from modules with no default export. This does not affect code emit, just typechecking.
+
+    "allowJs": true,
+    // Allow JavaScript files to be compiled.
+
+    "baseUrl": "./",
+    "paths": {}
+  },
+  "include": ["**/*.ts", "**/*.d.ts"],
+  "exclude": ["node_modules"]
+}
