@@ -1,4 +1,4 @@
-#Custom Nuxt Template
+# Custom Nuxt Template
 
 ## Installation
 
