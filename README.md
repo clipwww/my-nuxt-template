@@ -5,7 +5,7 @@
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ```bash
-vue init nuxt-community/express-template <project-name>
+vue init clipwww/custom-nuxt-template <project-name>
 cd <project-name> # move to your project
 npm install # or yarn install
 ```
