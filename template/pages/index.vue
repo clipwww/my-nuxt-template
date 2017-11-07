@@ -1,3 +1,4 @@
+{{{{raw}}}}
 <template>
   <section class="container">
     <img src="~assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
@@ -13,6 +14,7 @@
     </ul>
   </section>
 </template>
+{{{{/raw}}}}
 
 <script lang="ts">
 import axios from 'axios';
