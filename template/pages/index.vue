@@ -16,27 +16,27 @@
 </template>
 {{{{/raw}}}}
 
-<script lang="ts">
-import axios from 'axios';
+<script>
+import axios from "axios";
 
 export default {
   async asyncData() {
-    console.log('asyncData');
-    let { data } = await axios.get('/api/users');
+    console.log("asyncData");
+    let { data } = await axios.get("/api/users");
     return { users: data };
   },
   head() {
     return {
-      title: 'Users',
+      title: "Users"
     };
   },
   data() {
     return {
-      users: [],
+      users: []
     };
   },
   methods: {},
-  mounted() {},
+  mounted() {}
 };
 </script>
 

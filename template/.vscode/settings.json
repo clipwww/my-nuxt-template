@@ -8,8 +8,5 @@
     "javascript",
     "javascriptreact",
     "vue"
-  ],
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
-  "prettier.printWidth": 120
+  ]
 }
