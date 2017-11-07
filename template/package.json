@@ -1,8 +1,8 @@
 {
-  "name": "nuxtjs_expressjs_template",
+  "name": "my_nuxt_template",
   "version": "1.0.0",
-  "description": "Nuxt.js + Express.js Template",
-  "author": "clipwww <clipwww@gmail.com>",
+  "description": "Nuxt.js + Express.js + Typescript template",
+  "author": "David, Jian <david.jian@myre.life>",
   "private": true,
   "scripts": {
     "dev": "PORT=9487 backpack dev",
