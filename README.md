@@ -6,7 +6,7 @@ Try Try See
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ```bash
-vue-init -c http://192.168.11.250:10080/:david/my-nuxt-template <project-name>
+vue init clipwww/my-nuxt-template <project-name>
 cd <project-name> # move to your project
 npm install # or yarn install
 ```
