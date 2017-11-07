@@ -1,11 +1,12 @@
-# Custom Nuxt Template
+# My Nuxt Template
+Try Try See
 
 ## Installation
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ```bash
-vue init clipwww/my-nuxt-template <project-name>
+vue-init -c http://192.168.11.250:10080/:david/my-nuxt-template <project-name>
 cd <project-name> # move to your project
 npm install # or yarn install
 ```
@@ -21,7 +22,7 @@ npm install # or yarn install
 
 | Command | Description |
 |---------|-------------|
-| npm run dev | Start ExpressJS server in development with Nuxt.js in dev mode (hot reloading). Listen on [http://localhost:3000](http://localhost:3000). |
+| npm run dev | Start ExpressJS server in development with Nuxt.js in dev mode (hot reloading). Listen on [http://localhost:9487](http://localhost:9487). |
 | npm run build | Build the nuxt.js web application for production. |
 | npm start | Start ExpressJS server in production. |
 | npm analyze | Start Webpack Analyze server in production. |
